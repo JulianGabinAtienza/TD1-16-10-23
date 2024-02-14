@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ma première page</title><!-- Titre de la page -->
+
+    <link rel="stylesheet" href="style.css"><!-- Lien vers le css -->
+</head>
+
+<body>
+    <div class="container"></div><!-- division avec la class container -->
+        <div class="titles"><!-- division avec la class titles -->
+            <h1>Ceci est mon titre principal</h1>
+            <h2>Titre un tout petit peu plus petit</h2>
+            <h3>Titre un peu plus petit</h3>
+            <h4>Titre encore plus petit</h4>
+            <h5>Titre vraiment petit</h5>
+            <h6>Titre le plus petit</h6>
+        </div>
+
+        <h1>Un autre h1 !</h1>
+        
+        <p id="monParagraphe"><!-- p est une zone de texte avec monParagraphe comme identifiant et Lorem Ipsum permet de remplir les zones de textes quand on ne connais pas encore leur contenue --><mark>Lorem ipsum</mark><!-- mark mais en gras ce qui est entre les >< -->, dolor sit amet consectetur adipisicing elit. Alias amet repellendus molestiae earum rem, a quod minima ullam voluptate maiores consequatur dolor. Ab illum nihil deleniti unde aperiam quibusdam iure.
+        Corporis temporibus sint unde obcaecati accusamus eligendi veniam nostrum voluptates est magnam fugit minima, dicta sed adipisci necessitatibus nesciunt blanditiis rem exercitationem! Sed eius illo numquam quos repudiandae quisquam veritatis.
+        Beatae eos id atque molestias officiis culpa provident repudiandae? Explicabo, nihil animi! Veritatis ipsum dolore necessitatibus ex adipisci sapiente, nihil dolorum ab velit quasi amet, voluptas deserunt illum consequatur autem.</p>
+
+        <p class="second-p"><!-- p avce la class second-p -->Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio error at doloribus corrupti, nulla eum totam vel inventore, modi aliquid ipsam rerum, molestias molestiae tempora. Debitis, laudantium? Quasi, distinctio quia!</p>
+
+        <a class="second-p" href="https://www.google.com" target="_blank">Lien vers Google !</a><!-- lien vers Google -->
+
+        <ol>
+            <li>coucou</li>
+            <li>coucou</li>
+            <li>coucou</li>
+        </ol>
+
+        <ul>
+            <li>coucou</li>
+            <li>coucou</li>
+            <li>coucou</li>
+            <li>coucou</li>
+            <li>coucou</li>
+        </ul>
+
+        <table><!-- Table permet de créer un tableau -->
+            <tr>
+                <th>Nom</th>
+                <th>Age</th>
+                <th>Ville</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>23</td>
+                <td>Paris</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>23</td>
+                <td>Paris</td>
+            </tr>
+        </table>
+
+        <form>
+            <h1>Mon premier formulaire</h1>
+            
+            <label for="username">Username</label>
+            <input name="username" type="text" placeholder="Votre nom ici ..." required>
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="votre Email..." required>
+            
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="votre password..." required>
+
+            <label for="NewsLetter"></label>
+
+            <h2>S'abonner à la NewsLetter ?</h2>
+
+            <label>Yes :</label>
+            <input type="radio" name="NewsLetter" valeur="Yes">
+            <label>No :</label>
+            <input type="radio" name="NewsLetter" valeur="No">
+            
+            <h2>Etes vous ok avec les conditions ?</h2>
+            <label for="conditions">Ok avec les conditions</label>
+            <input type="checkbox" name="conditions"></input>
+
+            <label for="countries">Pays</label>
+            <select name="countries" id="countries">
+                <option value="France">France</option>
+                <option value="UK">UK</option>
+                <option value="Japan">Japan</option>
+                <option value="Spain">Spain</option>
+            </select>
+
+            <input type="submit" value="Soumettre">
+            <button>Soumettre</button>
+        </form>
+
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        <img src="../image/3a79e580-d5c5-4b99-8410-5689f5dca69a.png" alt="">
+
+        <!-- Balises sémantiques : elles vont nous aider à mieux structurer nos pages -->
+        <header></header>
+        <main></main>
+        <footer></footer>
+        <nav></nav>
+        <section></section>
+        <article></article>
+
+    </div>
+
+
+</body>
+
+</html>

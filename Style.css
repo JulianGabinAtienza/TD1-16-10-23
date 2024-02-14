@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: darkred;
+}
+
+.bold-span {
+    font-weight:bold;
+}
+
+img {
+    width: 600px;
+    height: 250px;
+}
+
+table, td, th {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
